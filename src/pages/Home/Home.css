@@ -1,0 +1,85 @@
+.home{
+    padding: 0px 10px;
+    padding-bottom: 100px;
+}
+.hero{
+    max-width: 600px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.hero h1{
+    font-size:max(4vw,36px) ;
+}
+.hero p{
+    width: 75%;
+    color: #e3e3e3;
+    line-height: 1.5;
+}
+.hero form{
+    padding: 8px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.hero input{
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.hero button{
+    border: none;
+    background: #7927ff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.crypto-list{
+    padding: 40px 0px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.crypto-item{
+    width: 220px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding:16px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.crypto-item:hover{
+    box-shadow: 1px 1px 18px #ffffff6f;
+}
+.crypto-item img{
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.crypto-item h2{
+    font-size: 16px;
+}
+.crypto-symbol{
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
