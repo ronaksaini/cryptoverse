@@ -26,6 +26,8 @@ const Home = () => {
       .then(response => {
         setCryptoData(response.data);
         setFilteredData(response.data); // Initially show all data
+        console.log(cryptoData);
+
       })
       .catch(error => {
         console.error('Error fetching data:', error);
@@ -47,8 +49,8 @@ const Home = () => {
   return (
     <div className='home'>
       <div className="hero">
-        <h1>Largest <br />Crypto Marketplace</h1>
-        <p>Welcome to the world's largest cryptocurrency marketplace. <br />Sign up to explore more</p>
+        <h1>Largest <br />Crypto <span>Marketplace</span></h1>
+        <p>Real-Time Cryptocurrency Data at Your Fingertips</p>
 
         <form onSubmit={handleSearchSubmit}>
           <input 
@@ -67,7 +69,12 @@ const Home = () => {
                 <img src={crypto.image} alt={crypto.name} />
                 <h2>{crypto.name}</h2>
                 <h2 className="crypto-symbol">{crypto.symbol}</h2>
+                <div className="price-change">
                 <p>₹ {crypto.current_price}</p>
+                <p className={crypto.price_change_percentage_24h < 0 ? 'red' : 'green'}>
+            {crypto.price_change_percentage_24h.toFixed(2)}%  24h
+          </p>
+                </div>
               </div>
           ))
         ) : (

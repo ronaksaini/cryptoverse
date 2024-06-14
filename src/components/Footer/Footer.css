@@ -1,0 +1,84 @@
+.footer{
+    padding: 40px 0px;
+    /* border-top: 2px solid red; */
+    background-color: #fff;
+}
+.footer-container{
+    width: 80%;
+    margin: 34px auto;
+    display: flex;
+    align-items: center;
+}
+.footer p{
+    text-align: center;
+    font-size: 13px;
+}
+b{
+    color: #ff33e8;
+}
+.footer-container img{
+    width: 180px;
+}
+.footer-left-container{
+    flex-basis: 20%;
+}
+.footer-right-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+}
+.footer-col h2{
+    font-size: 14px;
+}
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.dummy{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-col{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.dummy h2{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #787878;
+}
+.navlinks{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+.navlinks p{
+    text-decoration: underline;
+    line-height: 18px;
+}
+.footer-col input{
+    padding: 8px 14px;
+    outline: none;
+    width: 300px;
+    border: 1px solid #ff33e74b;
+}
+.footer-col button{
+    padding: 6px 12px;
+    border: 2px solid #ff33e8;
+    background: transparent;
+    color: #ff33e8;
+    transition: 0.3s all ease-in-out;
+}
+.footer-col button:hover{
+    background-color: #ff33e8;
+    color: #fff;
+    cursor: pointer;
+}

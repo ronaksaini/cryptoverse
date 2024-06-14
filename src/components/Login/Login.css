@@ -13,8 +13,8 @@
 .login-container{
     padding: 40px 80px;
     /* background-color: #fff; */
-    border: 1px solid #fff;
-    box-shadow: 0 0 124px rgba(255, 255, 255, 0.184);
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 124px rgba(255, 255, 255, 0.263);
     border-radius: 4px;
     backdrop-filter: blur(212px);
     width: 400px;
@@ -23,15 +23,15 @@
     padding: 4px 12px;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #808080;
     outline: none;
-    color: #fff;
+    color: #000000;
     width: 100%;
     /* margin: 4px 0px; */
     margin-bottom: 8px;
 }
 .login input:focus {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #313131;
     outline: none;
   }
   .login button{
@@ -39,11 +39,11 @@
     width: 100%;
     margin-top: 14px;
     padding: 6px;
-    background-color: #7927ff;
+    background-color: #ff33e8;
+    border: none;
     color: #fff;
     font-weight: 500;
     border-radius: 8px;
-    border: 2px solid #7927ff;
     cursor: pointer;
 }
 .login p{

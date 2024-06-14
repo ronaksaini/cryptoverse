@@ -20,7 +20,7 @@ const Navbar = () => {
             <option value="inr">INR</option>
             <option value="eur">EUR</option>
         </select> */}
-        <button onClick={()=>navigate('/signup')}>Sign Up <img src={arrow_icon} alt="" /></button>
+        <button onClick={()=>navigate('/signup')}>Sign Up </button>
       </div>
     </div>
   )

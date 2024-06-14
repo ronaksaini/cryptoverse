@@ -2,12 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 10%;
-    color: #ddd;
-    border-bottom: 2px solid #3c3c3c;
+    padding: 30px 10%;
+    color: #000;
+    /* border-bottom: 1px solid #3c3c3c; */
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+    /* background: linear-gradient(#0b004e,#180052); */
 }
-.navbar .log{
-    width: max(12vw,120px);
+.navbar .logo{
+    width: 180px
 }
 .navbar ul{
     display: flex;
@@ -38,8 +43,8 @@
     border-radius: 20px;
     font-size: 15px;
     font-weight: 500;
-    color: #393939;
-    background: #fff;
+    color: #ffffff;
+    background: #ff33e8;
     border: none;
     cursor: pointer;
 }

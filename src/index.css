@@ -11,6 +11,8 @@ a{
 }
 .app{
   min-height: 100vh;
-  color: #fff;
-  background: linear-gradient(#0b004e,#1d152f,#002834);
+  background-image: url('./assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
 }

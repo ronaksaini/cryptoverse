@@ -16,19 +16,20 @@
 }
 .hero p{
     width: 75%;
-    color: #e3e3e3;
+    color: #323232;
     line-height: 1.5;
 }
 .hero form{
     padding: 8px;
     width: 80%;
-    background-color: #fff;
+    /* background-color: #000000; */
     border-radius: 5px;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    border: 1px solid #ff33e7af;
 }
 .hero input{
     flex: 1;
@@ -36,10 +37,14 @@
     outline: none;
     border: none;
     padding-left: 10px;
+    background: transparent;
+}
+.hero input:focus form{
+    border: 2px solid #ff33e7;
 }
 .hero button{
     border: none;
-    background: #7927ff;
+    background: #ff33e8;
     color: #fff;
     font-size: 16px;
     padding: 10px 30px;
@@ -64,16 +69,16 @@
     align-items: center;
     gap: 6px;
     padding:16px;
-    border: 2px solid #fff;
+    border: 1px solid #808080;
     border-radius: 4px;
     cursor: pointer;
 }
 .crypto-item:hover{
-    box-shadow: 1px 1px 18px #ffffff6f;
+    box-shadow: 1px 1px 18px #00000015;
 }
 .crypto-item img{
     width: 40px;
-    border: 2px solid #fff;
+    border: 2px solid #ff33e8;
     border-radius: 50%;
 }
 .crypto-item h2{
@@ -82,4 +87,20 @@
 .crypto-symbol{
     text-transform: uppercase;
     font-size: 14px !important;
+}
+.price-change{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.red{
+    color: rgb(255, 0, 0);
+    font-size: 14px;
+}
+.green{
+    color: rgb(126, 189, 0);
+    font-size: 14px;
+}
+h1 span{
+    color: #ff33e7;
 }
